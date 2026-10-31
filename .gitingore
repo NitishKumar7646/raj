@@ -1,4 +1,11 @@
-PORT=5000
-DATABASE_URL=mongodb://localhost:27017/mydb
-JWT_SECRET=mysecretkey
-API_KEY=123456789
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
